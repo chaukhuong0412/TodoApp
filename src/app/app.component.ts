@@ -1,20 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { TodoService} from './todo.service';
 import { Todo } from './model/todo.model';
+import { TodoService } from './todo.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'todo-pwa';
 
-  todos: any[];
+  todos: any;
   newTodoText = '';
 
-
-  constructor(public todoService: TodoService) { }
+  constructor(public todoService: TodoService) {}
 
   ngOnInit() {
     this.todoService.findAllTodos().subscribe(data => {
@@ -22,9 +20,9 @@ export class AppComponent implements OnInit {
         return {
           id: todo.payload.doc.id,
           ...todo.payload.doc.data()
-        }
+        };
       })
-    })
+    });
   }
 
   stopEditing(todo: Todo, editedTitle: string) {
@@ -55,16 +53,8 @@ export class AppComponent implements OnInit {
     this.todoService.toggleCompletion(todo);
   }
 
-
   remove(todo: Todo) {
     this.todoService.remove(todo);
-  }
-
-  addTodo (title: string) {
-    if (this.newTodoText.trim().length) {
-      this.todoService.add(this.newTodoText);
-      this.newTodoText = '';
-    }
   }
 
   allCompleted() {
@@ -83,7 +73,11 @@ export class AppComponent implements OnInit {
     return this.todos.filter((todo: Todo) => todo.completed === completed);
   }
 
-
-
+  addTodo() {
+    if (this.newTodoText.trim().length) {
+      this.todoService.add(this.newTodoText);
+      this.newTodoText = '';
+    }
+  }
 
 }

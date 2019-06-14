@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { AppComponent } from './app.component';
+import { TodoService } from './todo.service';
+import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { TodoService } from './todo.service';
-import { AppComponent } from './app.component';
-import { environment } from 'src/environments/environment';
-import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,9 @@ import { FormsModule } from '@angular/forms';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule
   ],
-  providers: [TodoService],
+  providers: [
+    TodoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
