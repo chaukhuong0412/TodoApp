@@ -12,17 +12,10 @@ export class AppComponent implements OnInit {
 
   todos: any;
   newTodoText = '';
-  text: string;
 
   constructor(public todoService: TodoService, private http: HttpClient) {}
 
   ngOnInit() {
-
-    this.http.get('https://firestore.googleapis.com/v1/projects/pwa-todo-95bd1/databases/(default)/documents/Todos/').subscribe(res => {
-      this.text = res.toString();
-      console.log(res);
-    })
-
     this.todoService.findAllTodos().subscribe(data => {
       this.todos = data.map(todo => {
         return {
