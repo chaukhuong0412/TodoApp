@@ -24,5 +24,18 @@
         ]
       }
     }
-  ]
+  ],
+    "dataGroups": [{
+      "name": "database-items",
+      "urls": [
+        "https://firestore.googleapis.com/"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "timeout": "5s",
+        "maxSize": 100,
+        "maxAge": "1d"
+      }
+    }]
 }
+

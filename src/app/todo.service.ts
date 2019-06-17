@@ -7,6 +7,8 @@ export class TodoService {
 
   constructor(private firestore: AngularFirestore) {}
 
+  
+
   findAllTodos() {
     return this.firestore.collection('Todos').snapshotChanges();
   }
