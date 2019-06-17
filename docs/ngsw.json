@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1560764294430,
+  "timestamp": 1560764478932,
   "index": "https://chaukhuong0412.github.io/TodoApp/index.html",
   "assetGroups": [
     {
@@ -48,7 +48,7 @@
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://chaukhuong0412.github.io/TodoApp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://chaukhuong0412.github.io/TodoApp/index.html": "40f0d7334667c9b75e6ecacb6439a54622758797",
+    "https://chaukhuong0412.github.io/TodoApp/index.html": "8dc78122fcb2fd850a3e6d40ac53d134531dbcf4",
     "https://chaukhuong0412.github.io/TodoApp/main-es2015.86cfc832bee654e993b0.js": "9aacd9fc274af956d916f3867d39aa7ec4c3ff7a",
     "https://chaukhuong0412.github.io/TodoApp/main-es5.c9c00e35c9681ee97742.js": "b51206a43ee42983c2973daa7c7757ebcf728f90",
     "https://chaukhuong0412.github.io/TodoApp/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
