@@ -28,7 +28,7 @@
     "dataGroups": [{
       "name": "database-items",
       "urls": [
-        "https://firestore.googleapis.com/"
+        "https://firestore.googleapis.com/**"
       ],
       "cacheConfig": {
         "strategy": "freshness",
