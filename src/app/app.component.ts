@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
 
   todos: any;
   newTodoText = '';
+  offline: boolean;
 
   constructor(public todoService: TodoService) {}
 
@@ -20,6 +21,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.getAllTodos();
+    this.offline = !navigator.onLine;
   }
 
   getAllTodos() {
