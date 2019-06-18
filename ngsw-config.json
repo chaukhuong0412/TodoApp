@@ -24,6 +24,18 @@
         ]
       }
     }
-  ]
+  ],  
+  "dataGroups": [{
+    "name": "database-items",
+    "urls": [
+      "https://firestore.googleapis.com/v1/projects/pwa-todo-95bd1/**"
+    ],
+    "cacheConfig": {
+      "strategy": "freshness",
+      "timeout": "2s",
+      "maxSize": 100,
+      "maxAge": "1d"
+    }
+  }]
 }
 

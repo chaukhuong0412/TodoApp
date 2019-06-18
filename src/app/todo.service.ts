@@ -26,6 +26,7 @@ export class TodoService {
   }
 
   add(title: string) {
+    console.log("Add called!");
     return from(this.firestore.collection('Todos').add({ title, completed: false }));
   }
 
