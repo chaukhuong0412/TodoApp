@@ -14,24 +14,37 @@ export class AppComponent implements OnInit {
 
   constructor(public todoService: TodoService) {}
 
+  private parseId(name: string) {
+    return name.substring(name.lastIndexOf('/'))
+  }
+
   ngOnInit() {
+    this.getAllTodos();
+  }
+
+  getAllTodos() {
     this.todoService.findAllTodos().subscribe(data => {
-      this.todos = data.map(todo => {
+      
+      this.todos = data.documents? data.documents.map(todo => {
         return {
-          id: todo.payload.doc.id,
-          ...todo.payload.doc.data()
+          id: this.parseId(todo.name),
+          completed: todo.fields.completed.booleanValue,
+          title: todo.fields.title? todo.fields.title.stringValue : ""
         };
-      })
+      }) : []
     });
   }
 
   stopEditing(todo: Todo, editedTitle: string) {
     todo.title = editedTitle;
     todo.editing = false;
+    this.getAllTodos();
+
   }
 
   cancelEditingTodo(todo: Todo) {
     todo.editing = false;
+    this.getAllTodos();
   }
 
   updateEditingTodo(todo: Todo, editedTitle: string) {
@@ -39,7 +52,9 @@ export class AppComponent implements OnInit {
     todo.editing = false;
 
     if (editedTitle.length === 0) {
-      return this.todoService.remove(todo);
+      return this.todoService.remove(todo).subscribe(() => {
+        this.getAllTodos();
+      });
     }
 
     todo.title = editedTitle;
@@ -50,11 +65,15 @@ export class AppComponent implements OnInit {
   }
 
   toggleCompletion(todo: Todo) {
-    this.todoService.toggleCompletion(todo);
+    this.todoService.toggleCompletion(todo).subscribe(() => {
+      this.getAllTodos();
+    });
   }
 
   remove(todo: Todo) {
-    this.todoService.remove(todo);
+    this.todoService.remove(todo).subscribe(() => {
+      this.getAllTodos();
+    });
   }
 
   allCompleted() {
@@ -75,7 +94,9 @@ export class AppComponent implements OnInit {
 
   addTodo() {
     if (this.newTodoText.trim().length) {
-      this.todoService.add(this.newTodoText);
+      this.todoService.add(this.newTodoText).subscribe(() => {
+        this.getAllTodos();
+      });
       this.newTodoText = '';
     }
   }
