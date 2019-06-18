@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Todo } from './model/todo.model';
 import { TodoService } from './todo.service';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +12,7 @@ export class AppComponent implements OnInit {
   todos: any;
   newTodoText = '';
 
-  constructor(public todoService: TodoService, private http: HttpClient) {}
+  constructor(public todoService: TodoService) {}
 
   ngOnInit() {
     this.todoService.findAllTodos().subscribe(data => {

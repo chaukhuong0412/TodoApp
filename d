@@ -1,0 +1,71 @@
+[33mcommit d552516b0dd2c49539141dcb0515bd2a37d071d8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 16:43:03 2019 +0200
+
+    Remove the testing object
+
+[33mcommit 28d3320cd388fe4f220c596961f405529b995a6c[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 16:27:39 2019 +0200
+
+    Adjust start_url
+
+[33mcommit a04019576b263b55fbdd6fbb4bdd5feeed47a84b[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 16:10:54 2019 +0200
+
+    Adjust the start_url and add dataGroup to cache the items
+
+[33mcommit 63e6a5886c7034d05a8fa4cff3ab20c0a9f8cfd4[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 11:41:39 2019 +0200
+
+    Add manifest.json to docs folder
+
+[33mcommit e2377a77056923f54988e713ddccd7f247296301[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 11:39:30 2019 +0200
+
+    Adjust the href of manifest.json
+
+[33mcommit a9974a0b4801f7f81fd08e3979b3bf5fe4e59c5d[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 11:00:28 2019 +0200
+
+    Add manifest.json to docs folder
+
+[33mcommit f3781bf9f193799e5d2fdfced215152c611ced96[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 10:58:25 2019 +0200
+
+    Add manifest.json to docs folder
+
+[33mcommit f497f21ab59ce98993b1da48012743ed94ebbdf6[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Mon Jun 17 10:52:54 2019 +0200
+
+    Initial convert to PWA
+
+[33mcommit 8236a7d7518d58b99c9bba0d6e33070c271ae8e6[m
+Author: Khuong Chau <chaukhuong0412@gmail.com>
+Date:   Sun Jun 16 18:38:31 2019 +0200
+
+    Adjust code for deployment
+
+[33mcommit c8fa652172a07d00573d4b4342fbeeadf114adbf[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Fri Jun 14 17:07:27 2019 +0200
+
+    adjust app
+
+[33mcommit 47306cfcb13b6ecc7d20d5e8db609b1ab0fd036e[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Fri Jun 14 16:11:12 2019 +0200
+
+    Implement UI
+
+[33mcommit ac0c8ae8a1e46e963ad9331892a68c0d8c18ebb7[m
+Author: Dinh Chau <Dinh.Chau@home.cas.de>
+Date:   Fri Jun 14 09:48:50 2019 +0200
+
+    initial commit
