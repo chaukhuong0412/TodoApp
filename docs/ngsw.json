@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1560782546707,
+  "timestamp": 1560854254121,
   "index": "https://chaukhuong0412.github.io/TodoApp/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://chaukhuong0412.github.io/TodoApp/favicon.ico",
         "https://chaukhuong0412.github.io/TodoApp/index.html",
-        "https://chaukhuong0412.github.io/TodoApp/main-es2015.fbef6dd42c1d06af2d81.js",
-        "https://chaukhuong0412.github.io/TodoApp/main-es5.e159e45f3f62538ea006.js",
+        "https://chaukhuong0412.github.io/TodoApp/main-es2015.11fc6bf549bdc679db91.js",
+        "https://chaukhuong0412.github.io/TodoApp/main-es5.192f3bba9ea9c35d5f03.js",
         "https://chaukhuong0412.github.io/TodoApp/polyfills-es2015.27661dfa98f6332c27dc.js",
         "https://chaukhuong0412.github.io/TodoApp/polyfills-es5.405730e5ac8f727bd7d7.js",
         "https://chaukhuong0412.github.io/TodoApp/runtime-es2015.858f8dd898b75fe86926.js",
@@ -37,19 +37,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "database-items",
-      "patterns": [
-        "https:\\/\\/firestore\\.googleapis\\.com\\/.*"
-      ],
-      "strategy": "performance",
-      "maxSize": 100,
-      "maxAge": 86400000,
-      "timeoutMs": 5000,
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -60,9 +48,9 @@
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://chaukhuong0412.github.io/TodoApp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://chaukhuong0412.github.io/TodoApp/index.html": "34530f52b3fc23f58b710af85cd774d362a530ee",
-    "https://chaukhuong0412.github.io/TodoApp/main-es2015.fbef6dd42c1d06af2d81.js": "35c0767e788b6ee8635456cf7621ba27a363ac7d",
-    "https://chaukhuong0412.github.io/TodoApp/main-es5.e159e45f3f62538ea006.js": "dde8d65921019c9f45308de20dc434789ffe4e75",
+    "https://chaukhuong0412.github.io/TodoApp/index.html": "b7df6a74168ed7d72c9839bc1f1f4a6fba152e3e",
+    "https://chaukhuong0412.github.io/TodoApp/main-es2015.11fc6bf549bdc679db91.js": "fc78a620db80c1c10b9de69a2783502aa5370e21",
+    "https://chaukhuong0412.github.io/TodoApp/main-es5.192f3bba9ea9c35d5f03.js": "cf2d3cd15f07896680d77ceb1d97118d12a9d511",
     "https://chaukhuong0412.github.io/TodoApp/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "https://chaukhuong0412.github.io/TodoApp/polyfills-es5.405730e5ac8f727bd7d7.js": "042d7744ef82a64c73310f1db253736731a03950",
     "https://chaukhuong0412.github.io/TodoApp/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
