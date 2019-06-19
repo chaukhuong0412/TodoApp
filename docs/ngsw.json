@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1560867916544,
+  "timestamp": 1560931810474,
   "index": "https://chaukhuong0412.github.io/TodoApp/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://chaukhuong0412.github.io/TodoApp/favicon.ico",
         "https://chaukhuong0412.github.io/TodoApp/index.html",
-        "https://chaukhuong0412.github.io/TodoApp/main-es2015.5d957fb3568b4bb3c2b8.js",
-        "https://chaukhuong0412.github.io/TodoApp/main-es5.58470a2546449ef28512.js",
+        "https://chaukhuong0412.github.io/TodoApp/main-es2015.79c8c6d00bce54ca4422.js",
+        "https://chaukhuong0412.github.io/TodoApp/main-es5.01ba60f99aa45b0e059a.js",
         "https://chaukhuong0412.github.io/TodoApp/polyfills-es2015.27661dfa98f6332c27dc.js",
         "https://chaukhuong0412.github.io/TodoApp/polyfills-es5.405730e5ac8f727bd7d7.js",
         "https://chaukhuong0412.github.io/TodoApp/runtime-es2015.858f8dd898b75fe86926.js",
@@ -60,9 +60,9 @@
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://chaukhuong0412.github.io/TodoApp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://chaukhuong0412.github.io/TodoApp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://chaukhuong0412.github.io/TodoApp/index.html": "4e787ebce471ae66a8d174f6993a40adefa474bc",
-    "https://chaukhuong0412.github.io/TodoApp/main-es2015.5d957fb3568b4bb3c2b8.js": "dd587e9a10660f2cf509a1f964c32b111eeb80b1",
-    "https://chaukhuong0412.github.io/TodoApp/main-es5.58470a2546449ef28512.js": "e410d7878fb63c31fd205d756de45dfc018fafe6",
+    "https://chaukhuong0412.github.io/TodoApp/index.html": "fc000a7a92238dcb70cfe758243f29b82a5581ee",
+    "https://chaukhuong0412.github.io/TodoApp/main-es2015.79c8c6d00bce54ca4422.js": "652493b976c063584f8b2998de09093f17c5405c",
+    "https://chaukhuong0412.github.io/TodoApp/main-es5.01ba60f99aa45b0e059a.js": "7050960f5c5d708a416c672144afc757e3010a53",
     "https://chaukhuong0412.github.io/TodoApp/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "https://chaukhuong0412.github.io/TodoApp/polyfills-es5.405730e5ac8f727bd7d7.js": "042d7744ef82a64c73310f1db253736731a03950",
     "https://chaukhuong0412.github.io/TodoApp/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
